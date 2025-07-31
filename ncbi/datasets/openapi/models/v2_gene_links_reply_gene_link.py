@@ -23,6 +23,8 @@ from ncbi.datasets.openapi.models.v2_gene_links_reply_gene_link_type import V2Ge
 from typing import Optional, Set
 from typing_extensions import Self
 
+DEFAULT = None
+
 class V2GeneLinksReplyGeneLink(BaseModel):
     """
     V2GeneLinksReplyGeneLink

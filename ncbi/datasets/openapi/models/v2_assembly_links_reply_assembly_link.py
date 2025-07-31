@@ -23,6 +23,8 @@ from ncbi.datasets.openapi.models.v2_assembly_links_reply_assembly_link_type imp
 from typing import Optional, Set
 from typing_extensions import Self
 
+DEFAULT = None
+
 class V2AssemblyLinksReplyAssemblyLink(BaseModel):
     """
     V2AssemblyLinksReplyAssemblyLink
